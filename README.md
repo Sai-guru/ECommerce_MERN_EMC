@@ -76,5 +76,5 @@ npm run build
 ```shell
 npm run start
 ```
-Check out the live demo here :https://ecommerce-mern-emc-backend.onrender.com/
-For any doubts contact me in INSTA:https://www.instagram.com/prigeesh._.2006?igsh=MWJhZHdtamluNXZzZw==
+-Check out the live demo here :https://ecommerce-mern-emc-backend.onrender.com/
+-For any doubts contact me in INSTA:https://www.instagram.com/prigeesh._.2006?igsh=MWJhZHdtamluNXZzZw==
