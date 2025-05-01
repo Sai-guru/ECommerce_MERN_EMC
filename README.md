@@ -1,5 +1,5 @@
 
-###🚀 Vendico: MERN Stack E-Commerce Platform
+<h3>🚀 Vendico: MERN Stack E-Commerce Platform</h3>
 
 > **Your Gateway to Online Retail Success!** 🛒✨
 
