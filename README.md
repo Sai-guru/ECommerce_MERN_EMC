@@ -1,4 +1,4 @@
-<h1 align="center">E-Commerce Store 🛒</h1>
+<h2 align="center">E-Commerce Store 🛒</h2>
 # 🚀 Vendico: MERN Stack E-Commerce Platform
 
 > **Your Gateway to Online Retail Success!** 🛒✨
