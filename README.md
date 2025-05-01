@@ -21,7 +21,7 @@ It delivers a complete online store experience, including:
 
 
 - 📦 Dependencies Used
-🖥️ Backend (Node.js + Express)
+🖥️ Backend (Node.js + Express)/
  express – Server framework
  mongoose – MongoDB object modeling
  dotenv – Environment variable management
@@ -41,8 +41,8 @@ nodemon – Auto-restart server on file changes
  react-router-dom – Client-side routing
  axios – API communication (HTTP client)
  zustand – ⚡ Lightweight and scalable global state management
- tailwindcss (if used) – Utility-first CSS framework for styling
- react-icons (if used) – Popular icon pack for React apps
+ tailwindcss – Utility-first CSS framework for styling
+ react-icons  – Popular icon pack for React apps
   
 
 ### Setup .env file
