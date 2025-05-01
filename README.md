@@ -9,6 +9,42 @@ It provides a complete, scalable, and responsive foundation for an online store 
 
 Perfect for entrepreneurs 🚀, startups 🌱, or businesses 🏢 aiming to **build a successful online presence**.
 
+
+It delivers a complete online store experience, including:
+- 🔐 **User Authentication & Authorization**
+- 🛍️ **Product Browsing & Filtering**
+- 🛒 **Cart & Checkout Process**
+- 📦 **Order Management**
+- 💳 **Stripe Payment Integration**
+- ☁️ **Cloudinary Image Upload**
+- ⚡ **Redis for Caching**
+
+
+- 📦 Dependencies Used
+🖥️ Backend (Node.js + Express)
+ express – Server framework
+ mongoose – MongoDB object modeling
+ dotenv – Environment variable management
+ cookie-parser – Parse cookies for auth
+ jsonwebtoken – JWT-based authentication
+ bcryptjs – Password hashing
+ cloudinary – Image upload & management
+ stripe – Payment gateway integration
+ ioredis – Redis client for caching
+
+-⚙️ Development
+nodemon – Auto-restart server on file changes
+
+-🎨 Frontend (React.js + Vite)
+ react – UI library for building interactive components
+ react-dom – DOM renderer for React
+ react-router-dom – Client-side routing
+ axios – API communication (HTTP client)
+ zustand – ⚡ Lightweight and scalable global state management
+ tailwindcss (if used) – Utility-first CSS framework for styling
+ react-icons (if used) – Popular icon pack for React apps
+  
+
 ### Setup .env file
 
 ```bash
