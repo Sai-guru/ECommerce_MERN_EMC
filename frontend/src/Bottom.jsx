@@ -1,67 +1,59 @@
-import { FiPhoneCall } from 'react-icons/fi';
+import { FiPhoneCall, FiMail } from 'react-icons/fi';
 import { IoLogoInstagram } from 'react-icons/io';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { TbBrandMeta } from 'react-icons/tb';
 
-
 const Bottom = () => {
   return (
-    <footer className='border-t py-10 bg-gray-100'>
-      <div className='container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 px-4 lg:px-8'>
-        {/* About Section */}
+    <footer className='bg-white border-t'>
+      <div className='container mx-auto max-w-6xl px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8'>
+
+        {/* About */}
         <div>
-          <h3 className='text-lg text-gray-800 mb-4 font-semibold'>About Us</h3>
-          <p className='text-gray-600 text-sm'>
-            CompileTab is your one-stop shop for quality fashion wear. Stay trendy, stay stylish with us.
+          <h3 className='text-xl font-semibold text-gray-800 mb-3'>About Vendico</h3>
+          <p className='text-gray-600 text-sm leading-relaxed'>
+            We bring fashion that speaks your vibe. Explore quality clothing that keeps you stylish and confident.
           </p>
         </div>
 
-        {/* Newsletter Signup */}
+        {/* Customer Service */}
         <div>
-          <h3 className='text-lg text-gray-800 mb-4 font-semibold'>Stay Updated</h3>
-          <p className='text-gray-600 text-sm mb-4'>
-            Subscribe to our newsletter to get the latest trends and offers directly in your inbox.
-          </p>
-          <form className='flex flex-col'>
-            <input
-              type='email'
-              placeholder='Enter your email'
-              className='p-2 mb-4 border border-gray-300 rounded'
-            />
-            <button type='submit' className='bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition-colors'>
-              Subscribe
-            </button>
-          </form>
+          <h3 className='text-xl font-semibold text-gray-800 mb-3'>Customer Care</h3>
+          <ul className='text-sm text-gray-600 space-y-2'>
+            <li><span className='text-gray-800 font-medium'>Order Help:</span> Track & manage orders</li>
+            <li><span className='text-gray-800 font-medium'>Returns:</span> Easy return policy</li>
+            <li><span className='text-gray-800 font-medium'>Support:</span> FAQs & Chat</li>
+            <li><span className='text-gray-800 font-medium'>Find Us:</span> Store Locator</li>
+          </ul>
         </div>
 
         {/* Social & Contact */}
         <div>
-          <h3 className='text-lg text-gray-800 mb-4 font-semibold'>Connect With Us</h3>
-          <div className='flex items-center space-x-4 mb-4'>
-            <a href='https://www.meta.com' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500'>
+          <h3 className='text-xl font-semibold text-gray-800 mb-3'>Connect With Us</h3>
+          <div className='flex space-x-4 mb-4 text-gray-600'>
+            <a href='https://auth.meta.com/settings/vyi/' target='_blank' rel='noopener noreferrer' className='hover:text-gray-900 transition-colors'>
               <TbBrandMeta className='h-5 w-5' />
             </a>
-            <a href='https://www.instagram.com' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500'>
+            <a href='https://www.instagram.com/prigeesh._.2006?igsh=MWJhZHdtamluNXZzZw==' target='_blank' rel='noopener noreferrer' className='hover:text-gray-900 transition-colors'>
               <IoLogoInstagram className='h-5 w-5' />
             </a>
-            <a href='https://twitter.com' target='_blank' rel='noopener noreferrer' className='hover:text-gray-500'>
+            <a href='https://x.com/GURUKRISH891757' target='_blank' rel='noopener noreferrer' className='hover:text-gray-900 transition-colors'>
               <RiTwitterXLine className='h-5 w-5' />
             </a>
           </div>
-          <p className='text-gray-600 text-sm'>Call Us</p>
-          <p className='text-gray-700 text-sm flex items-center mt-1'>
-            <FiPhoneCall className='inline-block mr-2' />
-            +91 7550177315
-          </p>
+          <div className='text-sm text-gray-600 space-y-1'>
+            <p className='flex items-center'><FiPhoneCall className='mr-2' /> +91 7550177315</p>
+            <p className='flex items-center'><FiMail className='mr-2' /> support@Vendico.com</p>
+          </div>
         </div>
       </div>
 
       {/* Bottom Line */}
-      <div className='container mx-auto mt-10 px-4 lg:px-0 border-t border-gray-300 pt-6'>
-        <p className='text-gray-500 text-sm text-center tracking-tight'>&copy; 2025 CompileTab. All Rights Reserved.</p>
+      <div className='bg-gray-50 py-4 border-t text-center'>
+        <p className='text-xs text-gray-500'>&copy; 2025 Vendico. All rights reserved.</p>
       </div>
     </footer>
   );
-}
+};
 
 export default Bottom;
